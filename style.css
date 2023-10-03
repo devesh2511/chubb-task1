@@ -1,0 +1,129 @@
+body {
+    background-color: #dbc5a6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home {
+    width: 85%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 1px 1px 20px 20px #00000021;
+}
+
+.navbar {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: Tahoma, sans-serif;
+}
+
+.nav1 {
+    padding: 1px 50px 1px 1px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.nav2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav3 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 15px;
+}
+
+li {
+    list-style: none;
+    padding: 0px 10px 0px 10px;
+    font-size: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 15px;
+}
+
+.main1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Georgia, serif;
+}
+
+.body1 {
+    margin: 50px 50px 20px 0px;
+    padding: 0px 50px 0px 50px;
+}
+
+.head1 {
+    font-size: 45px;
+    margin: 0px 30px 0px 0px;
+    padding: 10px 10px 10px 0px;
+}
+
+.head2 {
+    font-size: 25px;
+    margin: 25px 75px 25px 0px;
+    padding: 0px 20px 0px 0px;
+}
+
+.btn2 {
+    background-color: #000000;
+    cursor: pointer;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 700;
+    padding: 15px 50px 15px 50px;
+    position: relative;
+    text-align: center;
+    width: fit-content;
+    min-width: 60px;
+}
+
+.img-class {
+    margin: 50px 0px 20px 50px;
+    padding: 0px 50px 0px 50px;
+}
+
+.img1 {
+    height: 375px;
+    width: 250px;
+}
+
+.body2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+
+@media screen and (max-width: 850px) {
+    .main1 {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .nav2 {
+        display: none;
+    }
+}
